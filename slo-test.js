@@ -3,7 +3,7 @@ import { check, sleep } from 'k6';
 
 export const options = {
     vus: 20,
-    duration: '1m',
+    duration: '2m',
 
     thresholds: {
         // Performance SLO
